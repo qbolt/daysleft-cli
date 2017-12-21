@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --global daysleft-cli
+$ npm install -g daysleft-cli
 ```
 
 ## Usage
@@ -23,6 +23,9 @@ $ daysleft --help
     2
 ```
 
+## Related
+
+- [daysleft](https://github.com/qbolt/daysleft) - API for this module
 
 ## License
 
