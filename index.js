@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const daysleft = require('daysleft')
 const meow = require('meow')
 
@@ -17,9 +19,11 @@ module.exports = getDaysLeft = input => {
     return err.message
   }
 }
+
 const input = cli.input
   .join('-')
   .replace('th', '')
   .replace('st', '')
   .replace('nd', '')
+
 console.log(getDaysLeft(input))
