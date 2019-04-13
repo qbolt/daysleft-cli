@@ -1,6 +1,6 @@
 {
   "name": "daysleft-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the days left until a given date",
   "license": "MIT",
   "repository": "qbolt/daysleft-cli",
@@ -16,11 +16,10 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "keywords": [
     "cli-app",
@@ -32,8 +31,7 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.20.0",
-    "moment": "^2.20.1",
-    "xo": "^0.18.2"
+    "ava": "^1.4.1",
+    "moment": "^2.20.1"
   }
 }
