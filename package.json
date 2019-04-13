@@ -1,6 +1,6 @@
 {
   "name": "daysleft-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get the days left until a given date",
   "license": "MIT",
   "repository": "qbolt/daysleft-cli",
