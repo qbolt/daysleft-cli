@@ -22,9 +22,16 @@
     "index.js"
   ],
   "keywords": [
-    "cli-app",
+    "days",
+    "left",
+    "daysleft",
     "cli",
-    ""
+    "how",
+    "many",
+    "days",
+    "left",
+    "time",
+    "until"
   ],
   "dependencies": {
     "daysleft": "^1.1.0",

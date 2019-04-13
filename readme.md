@@ -16,11 +16,13 @@ $ daysleft --help
   Usage
     daysleft [input]
 
-  Examples (Assuming today is 12-24-2017)
-    $ daysleft 12-25-2017
+  Examples (Assuming today is 12-24-2018)
+    $ daysleft 12-25-2018
     1
-    $ daysleft 12/26/17
+    $ daysleft 12/26-2018
     2
+    $ daysleft december 27th 2018
+    3
 ```
 
 ## Related
